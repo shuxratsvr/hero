@@ -1,0 +1,6 @@
+//at sign
+@mixin dflex( $justiyContent:space-between, $alignitmes:center){
+    display:flex;
+    justify-content: $justiyContent;
+    align-items: $alignitmes;
+}
