@@ -125,4 +125,136 @@ ul {
 }
 .header__img {
   width: 930px;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+.main__abut {
+  width: 1000px;
+  height: 406px;
+  flex-shrink: 0;
+  background-color: #F6F6F6;
+  text-align: center;
+  align-items: center;
+  top: 90px;
+}
+.main__abut h1 {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Bold;
+  align-items: center;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main__abut p {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+.main__skils {
+  display: flex;
+  justify-content: center;
+  padding: 90px 0px;
+  text-align: center;
+}
+.main__nav {
+  justify-content: center;
+  text-align: center;
+}
+.main__nav p {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main__car {
+  display: flex;
+  gap: 65px;
+}
+.main__cars {
+  color: #828282;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main__portt {
+  justify-content: center;
+  align-items: center;
+}
+.main__rotat {
+  justify-content: center;
+  text-align: center;
+}
+
+.footer {
+  background-color: rgb(243, 242, 246);
+  width: 100%;
+  height: 100vh;
+}
+.footer__nav {
+  text-align: center;
+  justify-content: center;
+}
+.footer__nav h1 {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.footer__nav p {
+  color: var(--Black, #070707);
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__nav button {
+  height: 94 px;
+  color: #FFF;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #070707;
+  border-radius: 36%;
+  background-color: #070707;
+  margin: 65px;
+}
+.footer__img ul {
+  justify-content: center;
+  text-align: center;
+  padding: 40px;
+  gap: 60px;
+}
+.footer__nav span {
+  color: #828282;
+  text-align: center;
+  font-family: Gilroy-Medium;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 65px;
 }/*# sourceMappingURL=stayle.css.map */

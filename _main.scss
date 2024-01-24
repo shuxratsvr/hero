@@ -1,0 +1,77 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    &__abut{
+        width: 1000px;
+        height: 406px;
+        flex-shrink: 0;
+        background-color: #F6F6F6;
+        text-align: center;align-items: center;
+        
+      top: 90px;
+
+    }
+    &__abut h1{
+        color: var(--Black, #070707);
+        text-align: center;
+        font-family: Gilroy-Bold;align-items: center;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+&__abut p{
+    color: var(--Black, #070707);
+    text-align: center;
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+&__skils{
+    display: flex;
+    justify-content: center;
+    padding: 90px 0px;    
+    text-align: center;    
+}
+
+
+    
+    &__nav{
+        justify-content: center;
+        text-align: center;
+    }
+    &__nav p{
+        color: var(--Black, #070707);
+        text-align: center;
+        font-family: Gilroy-Medium;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+   
+    &__car{
+        display: flex;
+        gap: 65px;
+    }
+ &__cars{
+    color: #828282;
+text-align: center;
+font-family: Gilroy-Bold;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+ }
+&__portt{
+    justify-content: center;align-items: center;
+}
+&__rotat{
+    justify-content: center
+    ;
+    text-align: center;
+}
+}
