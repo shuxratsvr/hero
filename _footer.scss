@@ -35,15 +35,17 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 border: 1px solid $primaryColor;
-border-radius: 36%;
+border-radius: 36px;
 background-color: $primaryColor;
-margin: 65px;
+margin: 65px 0;
+padding: 10px 20px;
 }
 &__img ul{
 justify-content: center;
 text-align: center;
-padding: 40px;
+padding:0 3rem;
 gap: 60px;
+
 }&__nav span{
     color: #828282;
     text-align: center;
