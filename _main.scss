@@ -42,6 +42,8 @@
     &__nav{
         justify-content: center;
         text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3 ,minmax(0,1fr));
     }
     &__nav p{
         color: var(--Black, #070707);
