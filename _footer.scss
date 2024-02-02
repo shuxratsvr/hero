@@ -39,6 +39,10 @@ border-radius: 36px;
 background-color: $primaryColor;
 margin: 65px 0;
 padding: 10px 20px;
+&:hover{
+rotate: 10px;
+background-color: #424242;transition: 1s;       font-size: 22px;
+}
 }
 &__img ul{
 justify-content: center;
@@ -56,4 +60,11 @@ gap: 60px;
     line-height: normal;
     padding: 65px;
 }
+&__img ul li{
+text-align: center;
+background-color: rgb(255, 255, 255);
+&:hover{
+background-color: rgb(197, 197, 0); rotate: 100px; 
+font-size: 24px; transition: 1s;
 }
+}}

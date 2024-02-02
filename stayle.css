@@ -312,6 +312,14 @@ ul {
   padding: 10px 20px;
 }
 
+.footer__nav button:hover {
+  rotate: 10px;
+  background-color: #424242;
+  -webkit-transition: 1s;
+  transition: 1s;
+  font-size: 22px;
+}
+
 .footer__img ul {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -330,6 +338,19 @@ ul {
   font-weight: 400;
   line-height: normal;
   padding: 65px;
+}
+
+.footer__img ul li {
+  text-align: center;
+  background-color: white;
+}
+
+.footer__img ul li:hover {
+  background-color: #c5c500;
+  rotate: 100px;
+  font-size: 24px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 @media (max-width: 576px) {
