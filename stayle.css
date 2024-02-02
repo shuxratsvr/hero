@@ -348,9 +348,9 @@ ul {
 .footer__img ul li:hover {
   background-color: #c5c500;
   rotate: 100px;
-  font-size: 24px;
-  -webkit-transition: 1s;
-  transition: 1s;
+  font-weight: 24px;
+  -webkit-transition-delay: 1s;
+          transition-delay: 1s;
 }
 
 @media (max-width: 576px) {
